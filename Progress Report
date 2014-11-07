@@ -1,0 +1,26 @@
+Progress Report: Goods Sale Prediction
+• Work done; 
+1.	Data gathering : 
+-	Data gathering is done for Goods prediction for total sold quantities monthly and yearly
+-	The data is sorted out in different ranges of stocks with respective to the their sold quantity per duration(monthly, yearly) for observing the trend for every change
+
+2.	Analysis on data 
+-	After testing on SAP Lumira and then on WEKA, it suggested to select Decision tree for accurate  classification on big data
+-	Earlier I tested dataset on SAP Lumira machine learning tool and it was working fine with large string values, giving the accuracy of 88%
+-	Now with WEKA the original dataset was giving 60% accuracy of prediction
+-	So all instances were being observed on training data in WEKA and unnecessary instances which were not helpful in hypothesis were being removed using reduced error pruning 
+-	After pruning the augmented dataset is giving 80% of accuracy using J48 tree
+
+3.	Implementation
+-	The basic implementation is done to extract the data and hypothesis from WEKA 
+-	This data is being manipulated for removing inconsistencies and irrelevant data from dataset in order to get instance based classification
+
+• Work to be done; 
+1.	Need to add few instances into dataset for calculating the reflecting effect of accurate hypothesis
+2.	Need to test the instances in categorized and prioritized manner on test data , where each instance node position will be considered individually and calculated for effective and accurate hypothesis
+3.	Using WEKA, the generated extract file will be used in design. The design will be manipulated and tested for every instance , and the new implementation design is then uploaded in WEKA for testing of test data
+• Problems encountered and any deviation from the original plan/schedule; and 
+1.	As per original plan, the dataset is being tested using SAP Lumira tool and then using the ID3 generated hypothesis the data is pruned and implemented using SAP ABAP programming language. 
+2.	Now due to expired sap setup, the dataset is again being tested on WEKA  with J48 tree algorithm, and now based on the generated hypothesis the implementation is in design phase 
+• Estimated completion date: 12 / 15/ 2014
+
