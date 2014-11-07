@@ -1,0 +1,49 @@
+CSC 219: Machine Learning Project Proposal
+
+Project Title: Goods Sales Prediction for retail stores
+
+ Introduction: 
+Now a day, retailers are facing many challenges in ensuring that they have appropriate levels of inventory for goods. There are multiple varieties of goods available in categories of easily perishable products, medium range goods and long lasting materials. But when it comes to reorder and replacement of goods, retailers don’t know exactly when to order new items by maintaining the budget. As there are many subcategories and parts of goods are in demand, retailer has to prioritize and arrange the ordering sequence of each and every item, which is actually a crucial task. Different prediction methods give different performance predictions when used for monthly goods sales forecasting.
+1.1 Significance of Goods Sales Prediction:
+I have chosen to forecast unit sales and classified product sales because it is a most common problem which every retailer is facing nowadays. The retailer store always has variety of issues while handling warehouse management with a large amount of dataset. So it has always been very complex and time critical to handle the stock and shipment of goods time to time. Recently with the growing variety of new products, it is becoming very challenging to predict which brand will dominate the market or can’t sustain in market. 
+Having an estimate of the product sale before the actual sale would provide the store owner with prior knowledge of its profit and also quantities to be ordered in future. Appropriate prediction of sales is of immense benefit to a business because it can improve the quality of business strategy and will eliminate decrease costs due to waste.
+The sales data is available from retail store for all products. The sales data is obtained based on monthly sales, replacement and reorder. As per available data, there is consistency in sales numbers of goods in daily sale –purchase but due to some seasonal events, an increase and advance demand is been noticed  for few products. To improve the functionality, correct decisions must be done using the available information. The forecasting must be so accurate that it can be viewed as an important part of decision making. This helps in systematic planning and operation of the retail industry.
+So I will be designing and implementing a methodology which will forecast following terms;
+1.	Goods sales prediction based on monthly sales and yearly sales
+2.	Goods sales prediction  per department and per product
+3.	How many products should be ordered on monthly and on yearly basis?
+4.	How many products must be replaced and restored?
+5.	What should be the closing stock for product and department at year end?
+1.2 ML algorithm :
+I am planning to use Decision tree as a predictive model for analyzing the observations about an item to conclusions about its target value. This algorithm helps to predict value of target item based on several input items. This algorithm is the most suitable one, because decision tree is mostly used while predicting values in representation of classifying examples. Here I will be using both Classification and regression tree for implementation as Store management with goods sales and purchase has the big classification of goods in main categories and sub categories.
+
+
+
+1.3 Related work: 
+I have searched the recent developments on goods sales forecasting. But till now the predictions were being developed only for few specific items (ex. Dairy products, food products) and on daily basis. The existing developments can’t give predictions of total sale and purchase of goods, their closing stocks and profit management. 
+I got the dataset of sales of multiple products from a retailer store representing last 3 years records and now analyzing it to classify the data. Also the dataset is available for monthly sales. So I will be focusing on predicting the sales of goods monthly and yearly basis.
+
+1.4 Result Evaluation:
+To develop a program based on historic data and observations which will predict the total sales of an item or a department for monthly or yearly basis. The program will also provide the stock management for given products which will help in avoiding wastage and loss of product.
+1.5 Preliminary work:
+From the store retailer I got the dataset, I had 2-3 meetings about his store management and sales. I have checked his system program storing records and sales details and it will set reorder for a product when its 20% available in stock.
+I have checked online the design implementations for sales forecasting. Those were mainly focused on human behavior and were random in iterations and were being developed using neural networks and assumptions.
+1.6 Schedule of activities:
+1.	Summarizing data from available dataset and preparing structure
+2.	Experimenting the summarized dataset with primary test cases
+3.	Researching more about algorithm and its scope
+4.	Designing the test cases based on algorithm and dataset 
+5.	Testing the 2nd levels of test cases
+6.	Initializing a programming language  and implementing the algorithm  
+7.	Selecting test datasets
+8.	Coding
+9.	Testing
+10.	Final execution
+1.7 References:
+i. Data Science use cases : https://www.kaggle.com/wiki/DataScienceUseCases
+ii. Forecasts in SAP: https://help.sap.com/saphelp_sbo882/helpdata/en/44/e98a3f7851363de10000000a1553f6/content.htm
+iii. Stock Projection: https://help.sap.com/saphelp_scm70/helpdata/en/8d/c18b51696c4c1e8315cc621f4f3eb5/content.htm
+1.8 URL :
+      https://github.com/neelams/Sales-Prediction-Machine-Learning-/wiki
+
+
